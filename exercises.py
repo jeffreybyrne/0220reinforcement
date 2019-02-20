@@ -13,3 +13,17 @@ def sum_odds(list):
 my_list = [400,2,67,42,3,221,1332,957,93536,120412]
 
 print(sum_odds(my_list))
+
+# Exercise 2
+# Pick three names and store them in a list.
+#
+# Prompt the user to enter their name. If their name is one of the names in the list, display a greeting message that
+# includes their name. If their name isn't in the list, display "Who goes there?"
+name_list = ['Jeff','Natalie','Sean']
+
+print("What is your name?")
+name = input()
+if name in name_list:
+    print("Welcome to the club!")
+else:
+    print("Who goes there?")
